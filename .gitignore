@@ -6,7 +6,27 @@ __pycache__/
 # C extensions
 *.so
 
+config.ini
+*.ini
+*.cfg
+
+results/
+logs/
+*.log
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+access_token.json
+*.token
+*.jwt
+
 # Distribution / packaging
+__pycache__/
+*.py[cod]
+*.so
+*$py.class
 .Python
 build/
 develop-eggs/
@@ -25,6 +45,12 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

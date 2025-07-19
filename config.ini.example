@@ -1,0 +1,10 @@
+[api]
+# Base URL for the API (required)
+base_url = https://api.example.com/v1
+
+# Authentication URL (required)
+auth_url = https://api.example.com/v1
+
+# Client credentials (required)
+client_id = your_client_id_here
+client_secret =your_client_secret_here
