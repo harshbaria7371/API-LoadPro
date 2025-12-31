@@ -73,6 +73,16 @@ class Authenticator:
         Checks for token expiration and refreshes if necessary.
         :return:
         """
+        # Load token from file if not already loaded
+        if not self.access_token and os.path.exists(self.token_file):
+            try:
+                with open(self.token_file, 'r') as f:
+                    token_data = json.load(f)
+                    self.access_token = token_data.get('access_token')
+                    print("Log: Loaded access token from file")
+            except Exception as e:
+                print(f"Log: Error loading token from file: {e}")
+        
         if self.access_token:
             if self.__is_token_expired(self.access_token):
                 print("Log: current access token expired, refreshing token")
