@@ -1,0 +1,30 @@
+[
+    {
+        "path": "/characters/1344",
+        "method": "GET"
+    },
+    {
+        "path": "/clans/12",
+        "method": "GET"
+    },
+    {
+        "path": "/villages/19",
+        "method": "GET"
+    },
+    {
+        "path": "/kekkei-genkai/1",
+        "method": "GET"
+    },
+    {
+        "path": "/tailed-beasts/711",
+        "method": "GET"
+    },
+    {
+        "path": "/teams/11",
+        "method": "GET"
+    },
+    {
+        "path": "/akatsuki/1293",
+        "method": "GET"
+    }
+]

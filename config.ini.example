@@ -2,9 +2,13 @@
 # Base URL for the API (required)
 base_url = https://api.example.com/v1
 
-# Authentication URL (required)
+# Authentication settings
+# Set to true if API calls require authentication token, false to skip authentication
+require_auth = true
+
+# Authentication URL (required if require_auth = true)
 auth_url = https://api.example.com/v1
 
-# Client credentials (required)
+# Client credentials (required if require_auth = true)
 client_id = your_client_id_here
 client_secret =your_client_secret_here
